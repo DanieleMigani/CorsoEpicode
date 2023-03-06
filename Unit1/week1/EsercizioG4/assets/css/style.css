@@ -1,0 +1,208 @@
+/* IMPOSTAZIONI GENERALI */
+@import url(/assets/webfonts/fa-regular-400.svg);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html,body{ 
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    background-image: url(../img/sfondo.png);
+
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    margin:auto ;
+    background:linear-gradient(#00bcd4,#005e8a);
+    box-shadow: 0px 2px 3px 2px #666;
+    margin-top: 1em;
+    color: white;
+    padding-bottom: 2em;
+    font-size: 1.1em;
+    width: 95%;
+    padding: 0.3em;
+    co
+    
+
+}
+
+ul .cavo {
+    list-style-position: inside
+
+}
+header li{
+    margin:0.3em;
+}
+
+.linkiniziali ul li a {
+    text-decoration:none;
+    color: white;
+}
+
+#logo {
+    width: 10% ;
+    padding: 1em ;
+}
+/* MAIN */
+
+
+main{
+    background-color: white;
+    box-shadow: 2px 0px 2px 0px #666;
+    box-shadow: -1px 0px 2px 0px #666;
+    padding: 0.3em;
+    width: 95%;
+    margin: auto;
+   
+
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1{
+    font-size: 2.5em;
+    padding-bottom: 0.4em;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+   
+
+}
+.autore{
+    color: gray;
+}
+
+
+
+    
+    
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+p{
+    padding-bottom: 1.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    line-height: 1.4;
+    font-size: larger;
+}
+
+strong {
+    color: #af2e9a;
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* TABELLE */
+
+caption {
+    font-style: italic;
+    font-weight: 600;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: white;
+
+}
+
+tbody>tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}
+
+thead {
+    background-color: #00408a;
+    font-weight: 100;
+    font-size: larger;
+    padding: 0.5em;
+}
+
+th {
+    color: white;
+    border: 1px solid rgb(72, 133, 202);
+    background-color: #255ea0;
+    font-weight: 300;
+    padding: 1.3em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 1em;
+    border-bottom: 2px solid rgb(57,119,211);
+    margin-bottom: 2em;
+}
+
+td {
+    text-align: center;
+    padding: 1em;
+}
+
+ul>li {
+    text-align: center;
+}
+
+
+/* FORM */
+
+section {
+    text-align: center;
+    margin: auto;
+    background: rgb(231, 231, 231);
+    margin-top: 1em;
+    color: white;
+    padding-bottom: 5em;
+    font-size: 1.3em;
+    width: 90%;
+    padding: 0.3em;
+    color: rgb(43, 43, 43);  
+    ;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(43, 43, 43);
+}
+
+#user_email {
+    padding: 0.2em;
+    border: none;
+    border-bottom: 1px dashed gray;
+}
+
+button {
+    background-color: rgb(57,119,211);
+    color: white;
+    border: none;
+    padding: 0.3em;
+}
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{
+    text-align: center;
+    margin:auto ;
+    background:linear-gradient(#00bcd4,#005e8a);
+    box-shadow: 0px 2px 3px 2px #666;
+    margin-top: 1em;
+    color: white;
+    padding-bottom: 2em;
+    font-size: 1.1em;
+    width: 95%;
+    padding: 0.3em;
+}

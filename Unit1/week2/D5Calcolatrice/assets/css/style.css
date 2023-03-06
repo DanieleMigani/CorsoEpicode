@@ -1,0 +1,75 @@
+html,body{
+  background-image: url(../img/sfondo.png);
+  margin:auto;
+  
+}
+
+
+#logo{
+  text-align: center;
+  
+}
+
+img{
+  width: 100px;
+}
+#calcolatrice {
+  width: 400px;
+  margin:auto;
+  text-align: center;
+  padding: -100em;
+}
+
+h1{
+  text-align: center;
+  color: rgb(83, 0, 161);
+  text-shadow: 21px 18px 1px rgba(0, 13, 111, 0.58);
+  margin-top: 2px;
+  
+}
+
+
+input[type="testo"] {
+  width: 100%;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-radius: 35px;
+  border: 1px solid gray;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 35px;
+  border: 1px solid gray;
+  background-color: #8a2be2;
+  opacity: 0.6;
+  box-shadow: inset 0px 0px 16px 2px #6C246E;
+  
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 35px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+button:hover {
+    color: #2212d7;
+    font-weight: bold;
+}
+
+
+#uguale {
+  width: 145px;
+  background-color: lightgray;
+}
+

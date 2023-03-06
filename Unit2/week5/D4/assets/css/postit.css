@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.taskgeneral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Indie Flower', 'cursive';
+}
+
+body {
+    background-color: #666;
+    
+}
+
+.task1 {
+    background-color: #fafac8;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #fafac8 20% , #fafac8 80% , #7e7e68 100% );
+    transform: rotate(5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task2 {
+    background-color: #bde3be;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient(  #bde3be 20% ,  #bde3be 80% , #7e7e68 100% );
+    transform: rotate(8deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task3 {
+    background-color: #c7c8f6;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #c7c8f6 20% , #c7c8f6 80% , #7e7e68 100% );
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task4 {
+    background-color: #bde3be;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #bde3be 20% , #bde3be 80% , #7e7e68 100% );
+    transform: rotate(8deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task5 {
+    background-color: #fafac8;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #fafac8 20% , #fafac8 80% , #7e7e68 100% );
+    transform: rotate(5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task6 {
+    background-color: #c7c8f6;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #c7c8f6 20% , #c7c8f6 80% , #7e7e68 100% );
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task7 {
+    background-color: #fafac8;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #fafac8 20% , #fafac8 80% , #7e7e68 100% );
+    transform: rotate(5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.task8 {
+    background-color: #bde3be;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 4px 6px 11px 0px #000000;
+    background: linear-gradient( #bde3be 20% , #bde3be 80% , #7e7e68 100% );
+    transform: rotate(8deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.2em;
+    
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.task1:hover,.task5:hover,.task7:hover{
+     
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.task2:hover,.task4:hover,.task8:hover{
+    
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.task3:hover,.task6:hover{
+    
+    transition: 2s;
+    transform: scale(1.2);
+
+}
