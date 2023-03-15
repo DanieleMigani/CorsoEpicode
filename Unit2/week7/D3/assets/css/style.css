@@ -1,0 +1,25 @@
+body{
+  background-image:url(/assets/img/sfondo.png);
+  
+  width: 100%;
+}
+
+
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  #sideChart {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+  }
